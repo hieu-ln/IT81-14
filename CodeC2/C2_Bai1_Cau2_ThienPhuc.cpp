@@ -1,6 +1,7 @@
 //Project: C2_Bai1_Cau2.cpp
 #include <iostream>
 using namespace std;
+
 #define MAX 100
 int a[MAX];
 int n;
