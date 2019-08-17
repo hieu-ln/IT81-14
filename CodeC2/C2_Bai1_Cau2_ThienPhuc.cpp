@@ -55,25 +55,12 @@ int them1(int a[], int &n, int x)
 	return 0;
 }
 
-int them(int a[], int &n, int x, int i)
-{
-	if ( i<= n && n < MAX)
-	{
-		for(int j = n - 1; j >= i; j--)
-			a[j + 1] = a[j];
-		n++;
-		a[i] = x;
-		return 1;
-	}
-	return 0;
-}
-
 int xoa(int a[], int &n, int i)
 {
 	if ( i >= 0 && i < n)
 	{
 		for (int j = i; j < n - 1; j++)
-			a[j ] =a[j + 1];
+			a[j] =a[j + 1];
 		n--;
 		return 1;
 	}
