@@ -164,7 +164,7 @@ int main()
 				cin >> n;
 				if (n < 0 || n > 100)
 					cout << "Nhap sai. Nhap lai\n";
-			} while(n < 0 || n > 100);
+			} while(n < 0 || n > 100);	
 			nhap(A, n);
 			break;
 		case 2:
